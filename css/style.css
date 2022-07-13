@@ -73,6 +73,26 @@
     height: 100vh;
 }
 
+.services .card-body i{
+  font-size: 50px;
+}
+.portfolio .card{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+.team .card-body i{
+    font-size: 20px;
+}
+
+.team .card{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+
+.team-image{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
 
 /* media query */
 @media only screen and (min-widht:768px) and (max-width:991px) {
